@@ -1,0 +1,14 @@
+/* Юлія Муха — Практика №3 — Блочна модель, селектори, псевдокласи та медіазапити. */
+
+body .post p { /* 0-1-2 */
+    font-size: 16px;
+    background: #E0E0E0;
+}
+
+#paragraph { /* 1-0-0 */
+    font-size: 1em;
+}
+
+article > p { /* 0-0-2 */
+    font-size: 1.25em;
+}
